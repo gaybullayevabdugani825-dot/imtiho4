@@ -2,7 +2,7 @@ const { globalError, ClientError } = require("shokhijakhon-error-handler");
 const myReadFile = require("../utils/myReadFile");
 const myWriteFile = require("../utils/myWriteFile");
 
-// 🔹 GET all posts (with ?title=search optional)
+// GET all posts (with ?title=search optional)
 exports.GET_ALL_POSTS = async (req, res) => {
   try {
     const { title } = req.query;
@@ -20,7 +20,7 @@ exports.GET_ALL_POSTS = async (req, res) => {
   }
 };
 
-// 🔹 GET one post
+// GET one post
 exports.GET_ONE_POST = async (req, res) => {
   try {
     const { id } = req.params;
@@ -35,7 +35,7 @@ exports.GET_ONE_POST = async (req, res) => {
   }
 };
 
-// 🔹 CREATE new post
+// CREATE new post
 exports.CREATE_POST = async (req, res) => {
   try {
     const { title, content } = req.body;
@@ -59,7 +59,7 @@ exports.CREATE_POST = async (req, res) => {
   }
 };
 
-// 🔹 UPDATE post
+// UPDATE post
 exports.UPDATE_POST = async (req, res) => {
   try {
     const { id } = req.params;
@@ -78,7 +78,7 @@ exports.UPDATE_POST = async (req, res) => {
   }
 };
 
-// 🔹 DELETE post
+//  DELETE post
 exports.DELETE_POST = async (req, res) => {
   try {
     const { id } = req.params;
