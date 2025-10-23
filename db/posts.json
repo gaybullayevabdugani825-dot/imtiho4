@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2,
+        "title": "Express.js bilan REST API yaratish",
+        "description": "Express.js yordamida CRUD amallarni bajaruvchi API tuzish.",
+        "user_id": 1
+    },
+    {
+        "id": 3,
+        "title": "Frontend uchun JavaScript",
+        "description": "DOM, eventlar va fetch API bilan ishlash haqida.",
+        "user_id": 2
+    },
+    {
+        "id": 4,
+        "title": "Backend va Frontend integratsiyasi",
+        "description": "API'ni frontend bilan bog‘lash jarayoni tushuntiriladi.",
+        "user_id": 3
+    }
+]
